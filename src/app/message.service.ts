@@ -9,7 +9,7 @@ export class MessageService {
   private message = 'Hello world';
   constructor() { }
 
-  printMessage(): Observable<string> {
+  public printMessage(): Observable<string> {
     return of(this.message);
   }
 }
